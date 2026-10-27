@@ -7,12 +7,12 @@
 
 - [English](./README.md) · 中文
 - 许可证：MIT · Python ≥ 3.10
-- 拟议仓库：[`YuanAqi/monte-carlo-returns`](https://github.com/YuanAqi/monte-carlo-returns)
+- 仓库：[`YuanAqi/monte-carlo-returns`](https://github.com/YuanAqi/monte-carlo-returns)
 - 命令行：`mc-returns`
 
-## 为什么值得 Star（MiniQMT 受限之后）
+## 做什么
 
-不少人失去了顺手的桌面行情/交易运行时，但仍可以 **导出或还原日收益序列**，问一个老实问题：*若未来收益从同一经验袋子里抽，多年路径大概长什么样？* 本 CLI 给出 P5/P25/P50/P75/P95——适合研究与压力叙述，**不是算命**。独立日重采样 **不保留** 连续市场状态；工具会把这句话印出来。
+你手头有一份日收益（或净值）CSV，想快速看压力情景：如果把这些日子重新抽几千次，年化收益、波动、最大回撤大概落在什么区间。**monte-carlo-returns** 是零依赖命令行工具，读入 CSV，打出分位数（P5～P95）。给研究和离线压力检查用——**不是预测**，也不是券商或 MiniQMT 替代品，更不会下单。
 
 ## 安装 / 运行
 

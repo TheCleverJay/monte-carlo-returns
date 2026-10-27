@@ -7,12 +7,12 @@
 
 - English · [中文](./README.zh-CN.md)
 - License: MIT · Python ≥ 3.10
-- Proposed GitHub: [`YuanAqi/monte-carlo-returns`](https://github.com/YuanAqi/monte-carlo-returns)
+- GitHub: [`YuanAqi/monte-carlo-returns`](https://github.com/YuanAqi/monte-carlo-returns)
 - CLI: `mc-returns`
 
-## Why star this (post-MiniQMT)
+## What it does
 
-Many researchers lost easy desktop quant runtimes when MiniQMT access tightened. You can still **export or reconstruct a daily-return series** and ask an honest question: *if tomorrow’s return is drawn from the same empirical bag, what do multi-year paths look like?* This CLI answers with P5/P25/P50/P75/P95 — useful for research and stress narrative, **not a crystal ball**. Independent daily bootstrap **does not** preserve regimes; the tool says so out loud.
+You have a CSV of daily portfolio returns (or NAV) and want a simple stress picture: what ranges of annual return, volatility, and max drawdown show up if you reshuffle those days thousands of times. **monte-carlo-returns** is a zero-dependency CLI that reads the CSV and prints percentile bands (P5–P95). For research and offline stress checks — **not a forecast**, not a broker or MiniQMT replacement, and it never places orders.
 
 ## Install / run
 
