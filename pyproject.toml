@@ -29,10 +29,10 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/YuanAqi/monte-carlo-returns"
-Repository = "https://github.com/YuanAqi/monte-carlo-returns"
-Issues = "https://github.com/YuanAqi/monte-carlo-returns/issues"
-Changelog = "https://github.com/YuanAqi/monte-carlo-returns/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/TheCleverJay/monte-carlo-returns"
+Repository = "https://github.com/TheCleverJay/monte-carlo-returns"
+Issues = "https://github.com/TheCleverJay/monte-carlo-returns/issues"
+Changelog = "https://github.com/TheCleverJay/monte-carlo-returns/blob/main/CHANGELOG.md"
 
 [project.scripts]
 mc-returns = "monte_carlo_returns.cli:main"
