@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "monte-carlo-returns"
+version = "0.1.0"
+description = "Zero-dep Monte Carlo stress of daily portfolio returns (CSV in → percentiles out)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "YuanAqi" }]
+keywords = ["monte-carlo", "returns", "drawdown", "portfolio", "stress-test", "bootstrap"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Environment :: Console",
+  "Intended Audience :: Financial and Insurance Industry",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Office/Business :: Financial :: Investment",
+  "Topic :: Scientific/Engineering :: Mathematics",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/YuanAqi/monte-carlo-returns"
+Repository = "https://github.com/YuanAqi/monte-carlo-returns"
+Issues = "https://github.com/YuanAqi/monte-carlo-returns/issues"
+Changelog = "https://github.com/YuanAqi/monte-carlo-returns/blob/main/CHANGELOG.md"
+
+[project.scripts]
+mc-returns = "monte_carlo_returns.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
