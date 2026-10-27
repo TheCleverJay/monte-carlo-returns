@@ -12,7 +12,7 @@
 ## 开发
 
 ```bash
-git clone https://github.com/YuanAqi/monte-carlo-returns.git
+git clone https://github.com/TheCleverJay/monte-carlo-returns.git
 cd monte-carlo-returns
 PYTHONPATH=src python tests/test_smoke.py   # HTML 工具箱用 ./tests/smoke.sh
 ./scripts/smoke.sh

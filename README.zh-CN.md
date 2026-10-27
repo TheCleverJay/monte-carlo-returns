@@ -7,7 +7,7 @@
 
 - [English](./README.md) · 中文
 - 许可证：MIT · Python ≥ 3.10
-- 仓库：[`YuanAqi/monte-carlo-returns`](https://github.com/YuanAqi/monte-carlo-returns)
+- 仓库：[`TheCleverJay/monte-carlo-returns`](https://github.com/TheCleverJay/monte-carlo-returns)
 - 命令行：`mc-returns`
 
 ## 做什么

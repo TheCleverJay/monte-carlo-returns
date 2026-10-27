@@ -7,7 +7,7 @@
 
 - English · [中文](./README.zh-CN.md)
 - License: MIT · Python ≥ 3.10
-- GitHub: [`YuanAqi/monte-carlo-returns`](https://github.com/YuanAqi/monte-carlo-returns)
+- GitHub: [`TheCleverJay/monte-carlo-returns`](https://github.com/TheCleverJay/monte-carlo-returns)
 - CLI: `mc-returns`
 
 ## What it does
